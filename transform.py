@@ -50,4 +50,3 @@ grayscale = transforms.Compose([
 ])
 
 transform_list = [None, brightness, saturation, contrast, hue, rotate, HVflip, Vflip, shear, translate, center, grayscale]
-# transform_list = [None, brightness, saturation, contrast]
